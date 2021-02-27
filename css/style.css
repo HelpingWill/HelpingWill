@@ -1,0 +1,158 @@
+body {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: "Open Sans", sans-serif;
+  color: grey;
+}
+h1 {
+  color: black;
+  margin-bottom: 2.5rem;
+}
+
+/* Navigation Bar */
+
+.navbar-brand img {
+  margin-left: 20px;
+  width: 140px;
+}
+.navbar {
+  background-color: #21323b;
+}
+.navbar a {
+  margin-right: 20px;
+  padding: 0;
+}
+.navbar a:hover {
+  color: #96bb7c;
+  font-weight: bold;
+}
+.nav-link {
+  font-size: 1.2rem;
+  color: white;
+}
+
+/* Section background */
+.color-section {
+  background-color: #21323b;
+  padding: 2rem;
+  text-align: center;
+}
+.color-section h1 {
+  color: #96bb7c;
+}
+/* Card  */
+#bodycard {
+  text-align: center;
+  padding: 2rem 0;
+}
+.card h2 {
+  color: #96bb7c;
+}
+.card h5 {
+  font-weight: lighter;
+}
+.card_head {
+  margin: 1rem 0;
+  position: relative;
+  right: 10px;
+  background-color: #21323b;
+  margin: 0;
+  padding: 1.5rem;
+  width: 18rem;
+  border-radius: 7px;
+}
+.card hr {
+  margin: 0;
+}
+.card {
+  margin: 0 auto;
+}
+@media (max-width: 992px) {
+  .card_head{
+    position: static;
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .card {
+    width: 17rem;
+  }
+}
+
+.card p {
+  text-align: left;
+}
+.shadow-sm {
+  box-shadow: 3px 3px 12px 0px grey !important;
+}
+
+/* Mission */
+#Mission {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#bigimg{
+  overflow: hidden;
+}
+
+/* About */
+#About img {
+  border: 1px solid #96bb7c;
+  border-radius: 100%;
+  width: 10rem;
+  height: 10rem;
+  margin: 0 auto;
+}
+#About p {
+  padding-left: 7rem;
+  font-size: 1.2rem;
+}
+@media (max-width: 768px) {
+  #About p {
+    padding: 0;
+  }
+  .navbar {
+    position: static;
+  }
+}
+
+/* Support  */
+#Support {
+  text-align: center;
+  padding: 20px 0;
+}
+.cardback {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+#Support i {
+  font-size: 6rem;
+}
+#Support img {
+  border-radius: 100%;
+  width: 12rem;
+  margin: 0 auto;
+}
+
+/* Contact */
+#Contact i {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+#Contact a {
+  text-decoration: none;
+  color: #96bb7c;
+}
+#toTop {
+  display: none;
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  overflow: hidden;
+  width: 48px;
+  height: 48px;
+  border: none;
+  text-indent: 100%;
+  background: url(../images/arrow.png) no-repeat 0px 0px;
+}
